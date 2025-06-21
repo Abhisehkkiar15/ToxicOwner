@@ -11,7 +11,7 @@ API_HASH = os.environ.get("API_HASH","dccc3070f1c12ab155011f14c3d6ae6a")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 # ------------------------------------------------
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "@MorenaTxt_bot")
-BOT_TEXT = " 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐎𝐑"
+BOT_TEXT = " ❝𝐂𝐡𝐚𝐦𝐛𝐚𝐥 𝐇𝐢𝐭𝐥𝐞𝐫𝐬 ❥❥═══ ❤️™️ 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐎𝐑"
 # ------------------------------------------------
 OWNER_ID = int(os.environ.get("OWNER_ID", "7834875502"))
 # ------------------------------------------------
