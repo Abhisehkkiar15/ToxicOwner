@@ -19,13 +19,13 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7834875502"))
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002879608750"))
 
 # //FORCE_CHANNEL_ID
-CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1002578898945")) 
+CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1002404660077")) 
 # -----------------------------------------------
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://biklriplit:efaXfv2Ps9MRfner@cluster0.4hfu8zj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 # -----------------------------------------------
 PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002752241301"))
 # -----------------------------------------------
-join = '<a href="https://t.me/+uUWWSZu6389hZGY9 ">✳️ Bᴀᴄᴋᴜᴘ</a>'
+join = '<a href="https://t.me/+uUWWSZu6389hZGY9">✳️ Bᴀᴄᴋᴜᴘ</a>'
 # -----------------------------------------------
 UNSPLASH_ACCESS_KEY = 'RabDRmuXXBobanmwwbvpP5LwoG4J8ox34y5Sstz-9jk'
 # -----------------------------------------------
