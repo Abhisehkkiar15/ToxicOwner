@@ -233,6 +233,7 @@ async def v2_new(app, message, token, userid, hdr1, app_name, raw_text2, api_bas
                 f"└─ 🔐 Encrypted: {encrypted_count}\n\n"
                 f"🚀 <b>Extracted by:</b> @{(await app.get_me()).username}\n\n"
                 f"<code>╾───• {BOT_TEXT} •───╼</code>"
+                f"<code> For Uploading Txt File Msg Here ➡️ @Final_piece, @chambalchat_bot</code>"
             )
 
             # Send file
