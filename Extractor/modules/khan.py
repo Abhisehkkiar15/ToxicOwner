@@ -253,6 +253,7 @@ async def extract_content(app, message, headers, batch, progress_msg):
             f"└─ 📚 Topics: {len(topic_wise_content)}\n\n"
             f"🚀 <b>Extracted by:</b> @{(await app.get_me()).username}\n\n"
             f"<code>╾───• {BOT_TEXT} •───╼</code>"
+            f"<code> For Uploading Txt File Msg Here ➡️ @Final_piece, @chambalchat_bot</code>"
         )
         
         # Send files
