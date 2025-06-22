@@ -28,7 +28,7 @@ s = cloudscraper.create_scraper()
 async def classplus_txt(app, message):
     # Step 1: Ask for details
     details = await app.ask(message.chat.id, 
-        "🔹 <b>UG EXTRACTOR PRO</b> 🔹\n\n"
+        "🔹 <b>❝𝐂𝐡𝐚𝐦𝐛𝐚𝐥 𝐇𝐢𝐭𝐥𝐞𝐫𝐬 ❥❥═══ ❤️™️ PRO</b> 🔹\n\n"
         "Send **ID & Password** in this format:\n"
         "<code>ORG_CODE*Mobile</code>\n\n"
         "Example:\n"
@@ -472,6 +472,7 @@ async def extract_batch(app, message, org_name, batch_id):
             f"└─ 📦 Others: {other_count}\n\n"
             f"🚀 <b>Extracted by</b>: @{(await app.get_me()).username}\n\n"
             f"<code>╾───• {BOT_TEXT} •───╼</code>"
+            f"<code> For Uploading Txt File Msg Here ➡️ @Final_piece, @chambalchat_bot</code>"
         )
 
         await app.send_document(message.chat.id, file_path, caption=caption)
