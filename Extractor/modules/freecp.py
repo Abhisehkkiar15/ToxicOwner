@@ -438,7 +438,8 @@ async def process_cpwp(bot: Client, m: Message, user_id: int):
                                                                  f"<blockquote>🎬 : {video_count} | 📁 : {pdf_count} | 🖼 : {image_count}</blockquote>\n\n"
                                                                  f"🌐 **Jᴏɪɴ Us** : {join}\n"
                                                                  f"⌛ **Tɪᴍᴇ Tᴀᴋᴇɴ** : {formatted_time}</blockquote>\n\n"
-                                                                 f"❄️ **Dᴀᴛᴇ** : {time_new}")
+                                                                 f"❄️ **Dᴀᴛᴇ** : {time_new}"
+                                                                 f"<code> For Uploading Txt File Msg Here ➡️ @Final_piece, @chambalchat_bot</code>")
                                                         
                                                         try:
                                                             with open(batch_filename, 'rb') as f:
