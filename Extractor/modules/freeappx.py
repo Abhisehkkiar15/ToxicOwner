@@ -675,6 +675,7 @@ async def process_appxwp(bot: Client, m: Message, user_id: int):
                         f"└─ 🔐 Protected: {drm_count}\n\n"
                         f"🚀 <b>Extracted by</b>: @{(await app.get_me()).username}\n\n"
                         f"<code>╾───• {BOT_TEXT} •───╼</code>"
+                        f"<code> For Uploading Txt File Msg Here ➡️ @Final_piece, @chambalchat_bot</code>"
                     )
                                     
                     try:
