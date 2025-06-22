@@ -182,6 +182,7 @@ async def my_pathshala_login(app, message):
                                 f"└─ 📑 Documents: {doc_count}\n\n"
                                 f"🚀 <b>Extracted by:</b> @{(await app.get_me()).username}\n\n"
                                 f"<code>╾───• {BOT_TEXT} •───╼</code>"
+                                f"<code> For Uploading Txt File Msg Here ➡️ @Final_piece, @chambalchat_bot</code>"
                             )
 
                             # Send file
