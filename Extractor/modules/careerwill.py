@@ -1,3 +1,4 @@
+
 import os
 import requests
 import threading
@@ -143,7 +144,6 @@ async def careerdl(app, message, headers, raw_text2, token, raw_text3, prog, nam
         f"└─ 📦 Total Links: {total_videos + total_notes}\n\n"
         f"🚀 <b>Extracted by:</b> @{(await app.get_me()).username}\n\n"
         f"<code>╾───• {BOT_TEXT} •───╼</code>"
-        f"<code> For Uploading Txt File Msg Here ➡️ @Final_piece, @chambalchat_bot</code>"
     )
 
     try:
@@ -186,13 +186,9 @@ async def career_will(app: Client, message: Message):
         if "*" in raw_text:
             email, password = raw_text.split("*")
             headers = {
-                "Host": "elearn.crwilladmin.com",
                 "appver": "107",
                 "apptype": "android",
                 "cwkey": "+HwN3zs4tPU0p8BpOG5ZlXIU6MaWQmnMHXMJLLFcJ5m4kWqLXGLpsp8+2ydtILXy",
-                "content-type": "application/json; charset=UTF-8",
-                "accept-encoding": "gzip",
-                "user-agent": "okhttp/5.0.0-alpha.2"
             }
             data = {
                 "deviceType": "android",
@@ -201,7 +197,7 @@ async def career_will(app: Client, message: Message):
                 "deviceVersion": "Q(Android 10.0)",
                 "email": email,
                 "deviceIMEI": "d57adbd8a7b8u9i9",
-                "deviceToken": "fake_device_token"
+                "deviceToken": "e5c23f28-883e-4d77_90cc-84b47e089c72"
             }
 
             login_url = "https://elearn.crwilladmin.com/api/v9/login-other"
@@ -274,5 +270,3 @@ async def career_will(app: Client, message: Message):
             "Please try again or contact support."
         )
         await message.reply(error_msg)
-
-
